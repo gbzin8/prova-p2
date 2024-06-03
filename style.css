@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #f9b5af;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #f9b5af;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    padding: 14px 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #f9b5af;
+}
+
+main {
+    margin: 20px;
+}
+
+.form-section, .list-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2, .list-section h2 {
+    margin-bottom: 20px;
+}
+
+.form-section input, .form-section textarea, .form-section button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-section button {
+    background-color: #f9b5af;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #f9b5af;
+}
+
+.list-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-section li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #f9b5af;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin-left: 80%;
+    margin-top: 20px;
+    
+   
+    
+}
